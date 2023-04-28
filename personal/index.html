@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio</title>
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/ddc7a34875.js" crossorigin="anonymous"></script> 
+
+</head>
+
+<body>
+    <div id="header">
+        <div class="container">
+        <nav>
+            <img src="image/logo.png" class="logo">
+            <ul id="sidemenu">
+                <li><a href="#header" style="--i:1;">Home</a></li>
+                <li><a href="#about" style="--i:2;">About</a></li>
+                <li><a href="#services" style="--i:3;">Services</a></li>
+                <li><a href="#contact" style="--i:4;">Contact</a></li>
+                <i class="fas fa-times" onclick="closemenu()"></i>
+            </ul>
+            <i class="fas fa-bars" onclick="openmenu()"></i>
+            </nav>
+            
+    <div class="header-text">
+            <h1>Web Devloper.</h1>
+            <h2>Hi, <br>I'm <br><span>Siddhant Pandya</span></h2>
+            <h3>Free Lancer.</h3>
+                        <div class="media">
+                <a href="http://facebook.com/" style="--i:5;"><i class="fa-brands fa-facebook"></i></a>
+                <a href="http://instagram.com/" style="--i:6;"><i class="fa-brands fa-instagram"></i></a>
+                <a href="http://linkedin.com/" style="--i:7;"><i class="fa-brands fa-linkedin"></i></a>
+                        </div>
+
+            <div class="btn">
+                <a href="image/cv 2.pdf" download class="btn">
+                
+                  <button>Download CV</button></div></a>
+    </div>
+
+</div>
+    </div>
+    <!---------------------------------------------------About section------------------------------------------------------------->
+    
+    <div class="about" id="about">
+        <div class="container">
+            <div class="row">
+                <div class="text-about-1">
+                    <img src="image/certy.jpeg">
+                </div>
+            <div class="text-about-2">
+                <h1 class="sub-title">About Me...</h1>
+                    <p>I am a very hard working person. I am always looking for ways to improve my skills. I am always willing to learn new things. I am a very patient person. I always try to stay calm in difficult situations. I am a very friendly person. I enjoy meeting new people. I am always willing to help out others.</p>
+                
+                        <h2>My Skills...</h2><br>
+                    
+                <div class="skillcontainer">
+                    <div class= "skillitem" >HTML : <div class="skill" hundread></div></div><br>
+                    <div class="skillitem">CSS : <div class="skill" nintyfive></div></div><br>
+                    <div class="skillitem">JAVASCRIPT : <div class="skill" eighty></div></div><br>
+                    <div class="skillitem">MCSA : <div class="skill" hundread></div></div>
+                </div>
+            </div>
+            
+        </div>    
+        </div>
+    </div>
+
+    <!-------------------------------------------------services section---------------------------------------------------->
+
+    <div id="services">
+        <div class="container">
+        
+            <div class="services">
+                <h1>My Services...</h1>
+                <div class="services-list">
+                    <div>
+                        <i class="fa-solid fa-code"></i>
+                        <h2>Web Design</h2>
+                        <p>A web design is a graphical representation of a website. It includes the layout of the website, the colors, the fonts, and the images.</p>
+                        <a href="#">Learn more</a>
+                    </div>
+                    <div>
+                        <i class="fa-solid fa-object-group"></i>
+                        <h2>Graphics Design</h2>
+                        <p>Graphic design is the process of visual communication and problem-solving through the use of typography, photography and illustration. Graphic designers create visual concepts, using computer software or by hand, to communicate ideas that inspire, inform, or captivate consumers.</p>
+                        <a href="#">Learn more</a>
+                    </div>
+                    <div>
+                        <i class="fa-solid fa-people-group"></i>
+                        <h2>Digital Marketing</h2>
+                        <p>Digital marketing is the process of marketing products or services using digital technologies, mainly the Internet, mobile phones and social media.</p>
+                        <a href="#">Learn more</a>
+                    </div>
+                </div>
+                </div>
+    
+        </div>
+    </div>
+    
+    <!-----------------------------------------------------contact section------------------------------------------------------>
+
+<section class="contact" id="contact">
+    <div class="container">
+    <h1 class="heading">Contact Me.</h1>
+    
+    <form action="#">
+        <div class="input-box">
+            <input type="text" placeholder="Full Name">
+            <input type="email" placeholder="Email Adress">
+        </div>
+        <div class="input-box">
+            <input type="number" placeholder="mobile number">
+            <input type="text" placeholder="Email Subject">
+        </div>
+        <textarea name="" id="" cols="30" rows="10" placeholder="Your Message."></textarea>
+        <input type="submit" value="Send Message" class="btn">
+    </form>
+    </div>
+</section>
+<!-- -----------------footer----------------------- -->
+
+<footer class="footer">
+    <div class="footer-text">
+        <p> Copyright &copy; 2023 by Brahm | All Rights Reserved.</p>
+    </div>
+    <div class="footer-iconTop">
+        <a href="#header"><i class='bx bx-up-arrow-alt'></i></a>
+    </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
